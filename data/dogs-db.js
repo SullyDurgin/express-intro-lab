@@ -1,7 +1,7 @@
 const dogs = [
-	{ text: 'George: Labrador', done: true, _id: 125223 },
-	{ text: 'Fluffy: Pomeranian', done: false, _id: 127904 },
-	{ text: 'Brutus: Bulldog', done: false, _id: 139608 },
+	{ text: 'TRAIN: George, Labrador', done: true, _id: 125223 },
+	{ text: 'TRAIN: Fluffy, Pomeranian', done: false, _id: 127904 },
+	{ text: 'TRAIN: Brutus, Bulldog', done: false, _id: 139608 },
 ]
 
 const find = (conditions, callback) => {
