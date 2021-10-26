@@ -1,0 +1,17 @@
+<body>
+  <h1>dogs</h1>
+  <% if(error) { %>
+    <h2>
+      <%= error %>
+    </h2>
+    <% } %>
+      <ul>
+        <% dogs.forEach(function(dog) { %>
+          <li>
+            <%= dog.text %>
+              -
+              <%= dog.done ? 'done' : 'not done' %>
+          </li>
+          <% }) %>
+      </ul>
+</body>
